@@ -1072,6 +1072,7 @@
 			status = "disabled";
 
 			iris {
+				/* compatible = "qcom,wcn3620";*/
 				compatible = "qcom,wcn3680";
 
 				clocks = <&rpmcc RPM_SMD_RF_CLK2>;
